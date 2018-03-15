@@ -12,4 +12,14 @@ public class Sprite implements Paint, Move {
     public Rectangle getBounds() {
         return null;
     }
+
+    @Override
+    public void paint(Graphics g) {
+
+    }
+
+    @Override
+    public void setPosition(int x, int y) {
+
+    }
 }
