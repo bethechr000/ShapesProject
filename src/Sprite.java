@@ -2,6 +2,21 @@ import java.awt.*;
 
 public class Sprite implements Paint, Move {
 
+    Color color;
+    int x, y , width, height;
+
+    double dx, dy;
+
+    final int SPEED = 7;
+
+    public Sprite(Color color, int x, int y, int width, int height) {
+
+        this.color = color;
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+    }
 
     @Override
     public void move(int boardHeight, int boardWidth) {
