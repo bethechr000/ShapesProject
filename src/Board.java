@@ -1,7 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 public class Board extends JPanel {
+
+
 
     public Board(){
 
@@ -11,6 +14,11 @@ public class Board extends JPanel {
 
     }
 
+    public void setup(){
+
+
+
+    }
 
 
 }

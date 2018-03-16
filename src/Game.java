@@ -12,12 +12,16 @@ public class Game extends JFrame {
         setTitle("Shapes Project");
         board = new Board();
         add(board);
-
+        board.setup();
 
     }
 
+
+
     public static void main(String[] args){
 
+        Game game = new Game();
+        game.board.setup();
 
     }
 
